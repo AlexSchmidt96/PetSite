@@ -1,0 +1,408 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Nunito";
+    src: url(fonts/Nunito-VariableFont_wght.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Nunito";
+    src: url(fonts/static/Nunito-Bold.ttf);
+    font-style:normal;
+    font-weight: bold;
+}
+body{
+font-family: "Nunito";
+background-color: #FFF8F5;
+}
+.wrapper{
+ width: 1490px;
+ margin: 0 auto;
+}
+.logo{
+float:left;
+width:15%;
+padding-top: 53px;
+}
+.menu{
+float: left;
+width:70%;
+padding-top: 60px;
+}
+.mainMenu{
+width: 523px;
+margin: 0 auto;
+}
+.menuItem{
+font-family: "Nunito";
+float: left;
+margin-right:55px;
+list-style-type: none;
+font-style: normal;
+}
+.menuItem:last-child{
+margin-right: 0px;
+}
+.signInbutton{
+float:left;
+width:15%;
+padding-top: 50px;
+}
+.buttonSign{
+font-family: "Nunito";
+color: white;
+border:none; 
+width: 160px;
+height: 40px;
+background: linear-gradient(180deg, #FFA992 0%, #FF7852 65%);
+box-shadow: 0px 10px 25px rgba(255, 124, 84, 0.3);
+border-radius: 30px;
+}
+.clearFix:after {
+clear: both;
+display: block;
+content:"";
+}
+.mainbanner{
+position: relative;
+margin-top: 204px;
+}
+.heroTitle{
+margin: 0px 0px 0px 40px;
+}   
+.forPets{
+font-size: 70px;
+margin: 31px 0px 40px 40px;
+font-weight:bold;
+line-height: 90px;
+color: #242851;
+}
+.information{
+margin: 30px 0px 0px 40px;
+}
+.ourServices{
+margin: 40px 0px 0px 100px;
+float: left;
+}
+.Buttonblock{
+margin-left: -20px;
+}
+.buttonSevices{
+font-family: "Nunito";
+color: white;
+border:none;
+width: 130px;
+height: 38px;
+background: linear-gradient(180deg, #FFA992 0%, #FF7852 65%);
+box-shadow: 0px 10px 25px rgba(255, 124, 84, 0.3);
+border-radius: 30px;
+}
+.makeAppointment{
+float: left;
+margin: 40px 0px 0px 20px 
+}
+.buttonAppointment{
+font-family: "Nunito";
+color: white;
+border:none;
+width: 170px;
+height: 36px;
+background: linear-gradient(180deg, #C3E48F 0%, #8EC637 65%);
+box-shadow: 0px 10px 25px rgba(125, 181, 35, 0.3);
+border-radius: 30px;
+}
+.abstract1{
+position: absolute;
+width: 43px;
+left:-90px;
+top:0px;
+}
+.mainbanner-left{
+float: left;
+width: 50%;
+padding: 0px ;
+padding-left: 20px;
+}
+.mainbanner-right{
+float: right;
+width: 50%;
+padding: 0px ;
+}
+.dogpic{
+width:782px;
+margin-top: -82px;
+margin-left: 12px;
+}
+
+.services{
+ margin-top: 192px;
+}
+.servicesAround{
+background-color: #FFECE4;
+border-radius: 50px;
+}
+.titleServices{
+padding-top: 100px;
+}
+.titleServices:last-child{
+padding-right: 0px;
+}
+.care{
+text-align: center;
+font-family: "Nunito";
+font-size: 20px;
+color: #FF7751;
+font-weight: bold;
+line-height: 27px;
+}
+.stuff{
+text-align: center;
+font-family: "Nunito";
+font-size: 64px;
+color: #242851;
+font-weight: bold;
+line-height: 87px;
+}
+.servicesDolist{
+padding:60px 100px;
+}
+.bg{
+float: left;
+width: 20%;
+padding-top: 60px;
+margin-left: 41px;
+background: #FFFFFF;
+border-radius: 30px;
+text-align: center;
+}
+/* Ховеры должны работать на всех четырех блоках, а не только на втором */
+.bg:hover{
+background: linear-gradient(180deg, #FFBBA9 0%, #FF6236 100%);
+box-shadow: 0px 15px 40px rgba(255, 122, 85, 0.3);
+border-radius: 30px;
+}
+    
+.bg.b1:hover .text.b1{
+color: #FFFFFF;
+}
+
+.iconBg{
+background: linear-gradient(180deg, #B8DEFF 0%, #1D97FF 100%);
+box-shadow: 0px 15px 40px rgba(72, 171, 255, 0.25);
+border-radius: 50%;
+box-sizing: border-box;
+width: 100px;
+height: 100px;
+margin: 0px 0px 30px 75px;
+text-align: center;
+}
+.iconBg.b1:hover{
+background: linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
+box-shadow: 0px 15px 40px rgb(255, 255, 255);
+border-radius: 30px;
+}
+.picsmall{
+padding-top: 30px;
+}
+.iconBg.b1{
+background: linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
+box-shadow: 0px 12px 25px rgb(255, 255, 255);
+}
+.iconBg.b2{
+background: linear-gradient(180deg, #FFE4AA 0%, #FF9C07 100%);
+box-shadow: 0px 12px 25px rgba(250, 168, 45, 0.3);
+}
+.iconBg.b3{
+background: linear-gradient(180deg, #AFE6EB 0%, #36BECB 100%);
+box-shadow: 0px 12px 25px rgba(17, 199, 217, 0.3);
+}
+.grooming{
+padding-bottom:20px;
+text-align: center;
+}
+.texty{
+padding-bottom: 50px;
+text-align: center;
+font-family: "Nunito";
+font-weight: normal;
+}
+.aboutmain{
+position: relative;
+margin-top: 104px;
+}
+.abstract2{
+position: absolute;
+width: 66px;
+top:1839px;
+left: 125px;
+}
+.left-about{
+float: left;
+width: 50%;
+margin-top: -154px;
+padding-left: 20px;
+}
+.Succestitle{
+margin:179px 105px;
+}
+.story{
+padding-bottom: 10px;
+font-family: "Nunito";
+font-size: 20px;
+color: #FF7751;
+font-weight: bold;
+line-height: 27px;
+}
+.vet{
+padding-bottom: 30px;
+font-family: "Nunito";
+font-size: 52px;
+color: #242851;
+font-weight: bold;
+line-height: 87px;
+}
+.simplyText{
+padding-bottom: 25px
+}
+.table{
+padding-left: 27px;
+}
+.table li{
+padding-bottom: 25px;
+list-style-type: none;
+}
+.list{
+list-style-image: url(img/pow1.png);
+}
+.table li:last-child{
+padding-bottom: 46px;
+}
+.moreknow{
+margin-left: -2px;
+}
+.Knowbutton{
+width: 200px;
+height: 45px;
+background: linear-gradient(180deg, #FFA992 0%, #FF7852 65%);
+box-shadow: 0px 10px 25px rgba(255, 124, 84, 0.3);
+border-radius: 30px;
+border: none;
+font-family: "Nunito";
+color: white;
+}
+.right-about{
+float: right;
+width: 50%;
+padding: 0px ;  
+}
+.image{
+margin-top:125px;
+}
+.team{
+margin-top: 130px;
+}
+.row_around{
+background-color: #FFECE4;
+border-radius: 50px;
+}
+.title_field{
+padding-top: 100px;
+}
+.ourteam{ 
+text-align: center;
+color: #FF7751;
+font-size: 20px;
+line-height: 27,28px;
+}
+.Groomers{
+text-align: center;
+color: #242851;
+font-size: 64px;
+line-height: 87,3px;
+}
+.field_dolist{
+display: flex;
+justify-content: center;
+}
+.newbg{
+flex: 0 1 292px;
+background: #FFFFFF;
+border-radius: 146px;
+margin: 60px 42px 100px 0px;
+}
+.newbg:last-child{
+margin-right: 0px;
+}
+.pic{
+padding: 50px 50px 0px; 
+}
+.iconpic {
+flex: 0 1 192px;
+background: linear-gradient(180deg, #FFE8BA 0%, #F3B73D 100%);
+border-radius: 110px;
+height: 192px
+}
+.iconpic.a{
+flex: 0 1 192px;
+background: linear-gradient(180deg, #D5D1FF 0%, #837BDB 100%);
+border-radius: 96px;
+}
+.iconpic.a1{
+flex: 0 1 192px;
+background: linear-gradient(180deg, #FFCCBC 0%, #FFBA7B 100%);
+border-radius: 96px;
+}
+.iconpic.a2{
+flex: 0 1 192px;
+background: linear-gradient(180deg, #E1F5FC 0%, #97D2F2 100%);
+border-radius: 96px;
+}
+.name{
+text-align: center;
+padding: 30px 0px 70px 0px;
+}
+.hername{
+color: #242851;
+font-size: 24px;
+line-height: 32,74px;
+}
+.founder{
+color: #FF7751;
+font-size: 18px;
+line-height: 22,5px;
+font-weight: 700;
+}
+.plan{
+margin-top: 130px;
+}
+.vertical_body{
+max-width: 1290px;
+margin: 0px auto;
+}
+.abstract3{}
+.block_cont_row{
+display: inline-flex;
+flex-direction:column
+}
+.block_cont_vert{
+}
+.block_cont:last-child{
+}
+.title_pack{
+}
+.pack{
+}
+.day_count{
+}
+.table_pack{
+}
+.table{}
+.price_pack{}
+.price{}
+.button_pack{}
+.purchase_button{}
+
