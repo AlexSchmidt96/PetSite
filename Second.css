@@ -185,11 +185,9 @@ background: linear-gradient(180deg, #FFBBA9 0%, #FF6236 100%);
 box-shadow: 0px 15px 40px rgba(255, 122, 85, 0.3);
 border-radius: 30px;
 }
-    
-.bg.b1:hover .text.b1{
+.bg:hover .text{
 color: #FFFFFF;
 }
-
 .iconBg{
 background: linear-gradient(180deg, #B8DEFF 0%, #1D97FF 100%);
 box-shadow: 0px 15px 40px rgba(72, 171, 255, 0.25);
@@ -366,7 +364,7 @@ text-align: center;
 padding: 30px 0px 70px 0px;
 }
 .hername{
-color: #000000;
+color: #242851;
 font-size: 24px;
 line-height: 32,74px;
 }
