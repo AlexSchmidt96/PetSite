@@ -1,6 +1,6 @@
 *{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 @font-face {
@@ -12,7 +12,7 @@
 @font-face {
     font-family: "Nunito";
     src: url(fonts/static/Nunito-Bold.ttf);
-    font-style:normal;
+    font-style: normal;
     font-weight: bold;
 }
 body{
@@ -24,13 +24,13 @@ background-color: #FFF8F5;
  margin: 0 auto;
 }
 .logo{
-float:left;
-width:15%;
+float: left;
+width: 15%;
 padding-top: 53px;
 }
 .menu{
 float: left;
-width:70%;
+width: 70%;
 padding-top: 60px;
 }
 .mainMenu{
@@ -40,7 +40,7 @@ margin: 0 auto;
 .menuItem{
 font-family: "Nunito";
 float: left;
-margin-right:55px;
+margin-right: 55px;
 list-style-type: none;
 font-style: normal;
 }
@@ -48,8 +48,8 @@ font-style: normal;
 margin-right: 0px;
 }
 .signInbutton{
-float:left;
-width:15%;
+float: left;
+width: 15%;
 padding-top: 50px;
 }
 .buttonSign{
@@ -77,7 +77,7 @@ margin: 0px 0px 0px 40px;
 .forPets{
 font-size: 70px;
 margin: 31px 0px 40px 40px;
-font-weight:bold;
+font-weight: bold;
 line-height: 90px;
 color: #242851;
 }
@@ -115,11 +115,11 @@ background: linear-gradient(180deg, #C3E48F 0%, #8EC637 65%);
 box-shadow: 0px 10px 25px rgba(125, 181, 35, 0.3);
 border-radius: 30px;
 }
-.abstract1{
+.abstract_image_1{
 position: absolute;
 width: 43px;
-left:-90px;
-top:0px;
+left: -90px;
+top: 0px;
 }
 .mainbanner-left{
 float: left;
@@ -168,9 +168,9 @@ font-weight: bold;
 line-height: 87px;
 }
 .servicesDolist{
-padding:60px 100px;
+padding: 60px 100px;
 }
-.bg{
+.services-item{
 float: left;
 width: 20%;
 padding-top: 60px;
@@ -179,12 +179,12 @@ background: #FFFFFF;
 border-radius: 30px;
 text-align: center;
 }
-.bg:hover{
+.services-item:hover{
 background: linear-gradient(180deg, #FFBBA9 0%, #FF6236 100%);
 box-shadow: 0px 15px 40px rgba(255, 122, 85, 0.3);
 border-radius: 30px;
 }
-.bg:hover .text{
+.services-item:hover .text{
 color: #FFFFFF;
 }
 .iconBg{
@@ -231,10 +231,10 @@ font-weight: normal;
 position: relative;
 margin-top: 104px;
 }
-.abstract2{
+.abstract_image_2{
 position: absolute;
 width: 66px;
-top:-60px;
+top: -60px;
 left: -80px;
 }
 .left-about{
@@ -243,8 +243,8 @@ width: 50%;
 margin-top: -154px;
 padding-left: 20px;
 }
-.Succestitle{
-margin:179px 105px;
+.successTitle{
+margin: 179px 105px;
 }
 .story{
 padding-bottom: 10px;
@@ -282,7 +282,7 @@ padding-bottom: 46px;
 margin-left: -30px;
 margin-top: 30px;
 }
-.Knowbutton{
+.buttonsBar{
 width: 200px;
 height: 45px;
 border-radius: 30px;
@@ -297,8 +297,8 @@ float: right;
 width: 50%;
 padding: 0px ;  
 }
-.image{
-margin-top:125px;
+.doggy_image{
+margin-top: 125px;
 }
 .team{
 margin-top: 130px;
@@ -316,7 +316,7 @@ color: #FF7751;
 font-size: 20px;
 line-height: 27,28px;
 }
-.Groomers{
+.groomers{
 text-align: center;
 color: #242851;
 font-size: 64px;
@@ -377,64 +377,57 @@ font-weight: 700;
 .plan{
 margin-top: 130px;
 text-align: center;
-position:relative;
+position: relative;
 }
 .vertical_body{
 max-width: 1290px;
 margin: 0px auto;
+display: flex;
 }
-.abstract3{
+.abstract_image_3{
 position: absolute;
 right: -60px;
 top: -10px;
 }
-.block_cont_row{
-display: inline-flex;
-flex-flow: column nowrap;
-align-items: baseline;
+.blockContent{
+align-self: center;
 }
-.block_cont_vert{
-background: #FFFFFF;
-box-shadow: 0px 15px 40px rgba(217, 200, 193, 0.3);
-position: relative;
-}
-.block_cont_vert.first{
+.blockVertical:first-child{
 border-top-left-radius: 20px;
 border-bottom-left-radius: 20px;
-top:50px;
-left:4px;
-width:410px;
+width: 410px;
+background: #FFFFFF;
+box-shadow: 0px 15px 40px rgba(217, 200, 193, 0.3);
 }
-.block_cont_vert.second{
+.blockVertical:nth-of-type(2n){
 border-top-right-radius: 20px;
 border-bottom-right-radius: 20px;
-top:50px;
-right:4px;
-width:410px;
+background: #FFFFFF;
+box-shadow: 0px 15px 40px rgba(217, 200, 193, 0.3);
 }
-.block_cont_vert.orange{
+.blockVertical.bigPack{
 background: linear-gradient(180deg, #FFA389 0%, #FF6439 100%);
 box-shadow: 0px 15px 40px rgba(255, 103, 61, 0.3);
 border-radius: 20px; 
-width:460px;
+width: 460px;
 }
 .title_pack{
-padding:60px 50px 50px 60px;
+padding: 60px 50px 50px 60px;
 font-size: 28px;
 line-height: 38px;
 text-align: center;
 }
-.title_pack.orange{
+.title_pack.bigPack{
  padding: 60px 80px 50px 80px;
 font-size: 28px;
 line-height: 38px;
 text-align: center;
 }
-.pack{
+.pack {
 padding-bottom: 15px;
 color: #242851;
 }
-.pack.orange{
+.pack.bigPack{
 color: #FFFFFF;
 }
 .day_count{
@@ -442,7 +435,7 @@ font-size: 50px;
 line-height: 68px;
 color: #242851;
 }
-.day_count.orange{
+.day_count.bigPack{
 color: #FFFFFF;
 }
 .table_pack{
@@ -462,30 +455,30 @@ padding-bottom: 25px;
 .table li:last-child{
 padding-bottom: 0px;
 }
-.table.orange{
+.table.bigPack{
 color: #FFFFFF;
 padding: 0px;
 }
-.table.orange li{
+.table.bigPack li{
 padding-bottom: 25px;
 }
-.table.orange li:last-child{
+.table.bigPack li:last-child{
 padding-bottom: 0px;
 }
 .price_pack{
-padding:50px 75px 60px 75px;
+padding: 50px 75px 60px 75px;
 }
 .price{
 color: #FF7751;
 }
-.price.orange{
+.price.bigPack{
 color: #FFFFFF;
 }
-.big_number{
+.price_number{
 font-size: 50px;
 line-height: 68px;
 }
-.small_text{
+.price_text{
 font-size: 20px;
 line-height: 27px;
 }
@@ -501,10 +494,10 @@ box-shadow: 0px 10px 25px rgba(255, 124, 84, 0.3);
 border-radius: 30px;
 border: none;
 color: #FFFFFF;
-font-size:20px;
-line-height:27px;
+font-size: 20px;
+line-height: 27px;
 }
-.purchase_button.orange{
+.purchase_button.bigPack{
 width: 200px;
 height: 55px;
 font-weight: 700;
@@ -513,10 +506,10 @@ box-shadow: 0px 10px 25px rgba(255, 124, 84, 0.3);
 border-radius: 30px;
 border: none;
 color: #FF7751;
-font-size:20px;
-line-height:27px;
+font-size: 20px;
+line-height: 27px;
 }
-.abstract4{
+.abstract_image_4{
 position: absolute;
 left: 0px;
 }
@@ -547,7 +540,7 @@ padding-bottom: 30px;
 }
 .title_call p{
 display: flex;
-flex:0 1 50%;
+flex: 0 1 50%;
 font-size: 18px;
 line-height: 30px;
 font-weight: 400;
@@ -555,7 +548,7 @@ padding-bottom: 50px;
 color: #707283;
 }
 .contact_call{
-padding-bottom:102px;
+padding-bottom: 102px;
 }
 .contact_button{
 width: 221px;
@@ -566,18 +559,18 @@ border-radius: 30px;
 font-size: 20px;
 line-height: 27px;
 font-weight: 600;
-color:#ffffff;
-border:none;
+color: #ffffff;
+border: none;
 }
 .call_image{
-padding:54px 105px 39px 0px;
+padding: 54px 105px 39px 0px;
 }
 .happydog{
 width: 417px;
 height: 417px;
 }
 .footer_content{
-margin-top:130px;
+margin-top: 130px;
 position: relative;
 }
 .footer_body{
@@ -586,7 +579,7 @@ margin: 0 auto;
 display: flex;
 }
 .aboutus_row{
-padding-right:102px;
+padding-right: 102px;
 flex: 0 1 auto;
 }
 .aboutus_column{
@@ -705,7 +698,7 @@ line-height: 22px;
 .table_open li:last-child{
 padding-bottom: 0px;
 }
-.abstract5{
+.abstract_image_5{
 position: absolute;
 top: 280px;
 left: 1500px;
